@@ -1,7 +1,7 @@
 import { callAndClearComponentDebounces } from '@/debounce'
 import { customDirectiveHasBeenRegistered } from '@/directives'
 import { on } from '@/hooks'
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 on('directive.init', ({ el, directive, cleanup, component }) => {
     if (['snapshot', 'effects', 'model', 'init', 'loading', 'poll', 'ignore', 'id', 'data', 'key', 'target', 'dirty'].includes(directive.value)) return

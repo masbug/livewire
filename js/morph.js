@@ -1,6 +1,6 @@
 import { trigger } from "@/hooks"
 import { closestComponent } from "@/store"
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 export function morph(component, el, html) {
     let wrapperTag = el.parentElement

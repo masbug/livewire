@@ -1,6 +1,6 @@
 import { directive } from "@/directives"
 import { on } from '@/hooks'
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 on('morph.added', ({ el }) => {
     el.__addedByMorph = true

@@ -1,7 +1,7 @@
 import { getDirectives } from '@/directives'
 import { on } from '@/hooks'
 import { Bag } from '@/utils'
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 let cleanups = new Bag
 

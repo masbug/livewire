@@ -1,5 +1,5 @@
 import { globalDirective } from "@/directives"
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 Alpine.addInitSelector(() => `[wire\\:current]`)
 

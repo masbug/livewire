@@ -2,7 +2,7 @@ import { directive } from '@/directives'
 import { handleFileUpload } from '@/features/supportFileUploads'
 import { closestComponent } from '@/store'
 import { dataGet, dataSet } from '@/utils'
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 directive('model', ({ el, directive, component, cleanup }) => {
     let { expression, modifiers } = directive

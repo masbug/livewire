@@ -1,4 +1,4 @@
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 export function generateEntangleFunction(component, cleanup) {
     if (! cleanup) cleanup = () => {}

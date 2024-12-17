@@ -4,7 +4,7 @@ import { generateEntangleFunction } from '@/features/supportEntangle'
 import { closestComponent } from '@/store'
 import { requestCommit, requestCall } from '@/request'
 import { dataGet, dataSet } from '@/utils'
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 import { on as hook } from './hooks'
 
 let properties = {}

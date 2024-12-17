@@ -3,7 +3,7 @@ import { find, first, getByName, all } from './store'
 import { start } from './lifecycle'
 import { on as hook, trigger, triggerAsync } from './hooks'
 import { directive } from './directives'
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 let Livewire = {
     directive,

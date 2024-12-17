@@ -113,7 +113,7 @@ By default, Alpine and Livewire are loaded using the `<script src="livewire.js">
 ```js
 // Warning: This snippet demonstrates what NOT to do...
 
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 import Clipboard from '@ryangjchandler/alpine-clipboard'
 
 Alpine.plugin(Clipboard)

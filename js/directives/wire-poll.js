@@ -1,5 +1,5 @@
 import { directive, getDirectives } from "@/directives"
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 
 directive('poll', ({ el, directive }) => {
     let interval = extractDurationFrom(directive.modifiers, 2000)

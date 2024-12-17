@@ -237,7 +237,7 @@ If you have included Alpine or any of the popular core Alpine plugins mentioned 
 ```js
 // Warning: this is a snippet of the Livewire 2 approach to including Alpine
 
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 import intersect from '@alpinejs/intersect'
 
 Alpine.plugin(intersect)
@@ -254,7 +254,7 @@ If you are registering custom Alpine plugins or components inside your applicati
 ```js
 // Warning: this is a snippet of the Livewire 2 approach to including Alpine
 
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 import customPlugin from './plugins/custom-plugin'
 
 Alpine.plugin(customPlugin)

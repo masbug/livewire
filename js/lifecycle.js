@@ -11,7 +11,7 @@ import navigate from './plugins/navigate'
 import history from './plugins/history'
 import morph from '@alpinejs/morph'
 import mask from '@alpinejs/mask'
-import Alpine from 'alpinejs'
+import Alpine from '@alpinejs/csp'
 import { dispatch } from './utils'
 
 export function start() {

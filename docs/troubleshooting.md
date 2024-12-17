@@ -97,7 +97,7 @@ If you are installing Livewire inside an existing Laravel Breeze (Blade + Alpine
 ```js
 import './bootstrap';
 
-import Alpine from 'alpinejs'; // [tl! remove:4]
+import Alpine from '@alpinejs/csp'; // [tl! remove:4]
 
 window.Alpine = Alpine;
 
